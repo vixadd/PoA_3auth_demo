@@ -1,0 +1,19 @@
+[parity]
+chain = "/parity/config/chain_spec.json"
+
+[rpc]
+interface = "0.0.0.0"
+cors = [""]
+hosts = [""]
+apis = [""]
+
+[network]
+bootnodes = []
+
+[account]
+password = ["/parity/authority_pwd.txt"]
+
+[mining]
+engine_signer = "0xa75ffefa5d56b949ab7c46b3446c5b0f075774d3" // Account Address
+reseal_on_txs = "" // Authourities reseal automatically
+usd_per_tx = "0" // free transactions

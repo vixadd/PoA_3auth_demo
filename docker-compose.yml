@@ -1,0 +1,12 @@
+version:'1'
+services:
+    authority0:
+    authority1:
+    authority2:
+
+    monitor:
+    dashboard:
+    logging:
+
+volumes:
+networks:
