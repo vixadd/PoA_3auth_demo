@@ -11,5 +11,5 @@ Setting up Parity Ethereum is a must.
 $ sudo apt-get install build-essential openssl libssl-dev libudev-dev
 $ bash <(curl https://get.parity.io -L)
 ```
-### Logging
-Logging and management occures with a foundation of the etstat dashboard.
+### Monitoring
+Occures with a foundation of the etstat dashboard. Pm2 is also a component on the docker build.
