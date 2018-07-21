@@ -11,5 +11,14 @@ Setting up Parity Ethereum is a must.
 $ sudo apt-get install build-essential openssl libssl-dev libudev-dev
 $ bash <(curl https://get.parity.io -L)
 ```
-### Monitoring
+### Deployment and Monitoring
 Occures with a foundation of the etstat dashboard. Pm2 is also a component on the docker build.
+To deploy the application the docker-compose config needs to be activated.
+After installing both docker and docker-compose run the following command.
+```bash
+$ sudo docker-compose up
+```
+This will allow you to set up the core foundation of the demo network. After running it you can run the docker-compose script in the background with:
+```bash
+$ sudo docker-compose up -d
+```
