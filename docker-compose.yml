@@ -12,10 +12,10 @@ services:
       --jsonrpc-cors all
     volumes:
       - ./parity/config:/parity/config:ro
-      - authority1:/root/.local/share/io.parity.ethereum/
-      - ./parity/authorities/authority1.json:/root/.local/share/io.parity.ethereum/keys/${NETWORK_NAME}/authority.json:ro
-      - ./parity/authorities/authority1.pwd:/parity/authority.pwd:ro
-      - ./parity/node1.network.key:/root/.local/share/io.parity.ethereum/network/key:ro
+      - authority0:/root/.local/share/io.parity.ethereum/
+      - ./parity/authorities/authority0.json:/root/.local/share/io.parity.ethereum/keys/${NETWORK_NAME}/authority.json:ro
+      - ./parity/authorities/authority0.pwd:/parity/authority.pwd:ro
+      - ./parity/node0.network.key:/root/.local/share/io.parity.ethereum/network/key:ro
     ports:
       - 8545:8545
     networks:

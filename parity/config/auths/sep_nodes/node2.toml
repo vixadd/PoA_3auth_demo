@@ -1,6 +1,6 @@
 [parity]
 chain = "/parity/config/spec.json"
-base_path = "/tmp/parity2"
+# base_path = "/tmp/parity2"
 
 [network]
 port = 30302
