@@ -1,5 +1,5 @@
 [parity]
-chain = "spec.json"
+chain = "/parity/config/spec.json"
 base_path = "/tmp/parity1"
 
 [network]
@@ -19,7 +19,7 @@ port = 8451
 disable = true
 
 [account]
-password = ["password/node.pwds"]
+password = ["/parity/config/password/node.pwds"]
 
 [mining]
 engine_signer = "0x00Aa39d30f0d20ff03a22ccfc30b7efbfca597c2"
