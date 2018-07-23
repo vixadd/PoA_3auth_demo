@@ -30,5 +30,5 @@ $ sudo docker-compose up -d
 This instruction initiates a dashboard and monitoring sequence using docker compose. At the same time it allows for the use of PM2 to monitor System Resource Usage.
 Inorder to see the output of this monitor run the following command in the root directory of the repository.
 ```bash
-$ sudo docker-compose logs | grep monitor_1
+$ sudo docker-compose logs monitor
 ```
