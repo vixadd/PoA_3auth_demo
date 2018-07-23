@@ -1,25 +1,20 @@
 # 3-Authority PoA Network
-## Introduction
 ### Demo
-This is a demo to demonstrate the capabilities of a PoA Network. It is set up and deployed using docker-compose.
-Therefor, you need to make sure you have docker-compose installed.
+This is a demo to analyze the capabilities of a PoA Network. It is set up and deployed using docker-compose.
+Therefor, you need to make sure you have docker-compose and docker installed.
 ```bash
+$ sudo apt-get install docker
 $ sudo apt-get install docker-compose
 ```
-Setting up Parity Ethereum is a must.
+Setting up Parity Ethereum is a must. Install the following required dependencies
 ```bash
 $ sudo apt-get install build-essential openssl libssl-dev libudev-dev
 $ bash <(curl https://get.parity.io -L)
 ```
 ### Deployment and Monitoring
-Occures with a foundation of the etstat dashboard. Pm2 is also a component on the docker build.
+Occures with the ethstat dashboard. PM2 is also a component on the build.
 To deploy the application the docker-compose config needs to be activated.
-Install the required dependencies:
-```bash
-$ sudo apt-get install docker
-$ sudo apt-get install docker-compose
-```
-After installing both docker and docker-compose run the following command.
+After installing all required dependencies, run the following command.
 ```bash
 $ sudo docker-compose up
 ```
@@ -32,3 +27,4 @@ Inorder to see the output of this monitor run the following command in the root 
 ```bash
 $ sudo docker-compose logs monitor
 ```
+You can add extra users on top of the current authorities by making user config files and running them.
