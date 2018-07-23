@@ -14,6 +14,11 @@ $ bash <(curl https://get.parity.io -L)
 ### Deployment and Monitoring
 Occures with a foundation of the etstat dashboard. Pm2 is also a component on the docker build.
 To deploy the application the docker-compose config needs to be activated.
+Install the required dependencies:
+```bash
+$ sudo apt-get install docker
+$ sudo apt-get install docker-compose
+```
 After installing both docker and docker-compose run the following command.
 ```bash
 $ sudo docker-compose up
