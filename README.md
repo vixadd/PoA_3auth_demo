@@ -32,3 +32,5 @@ You can add extra users on top of the current authorities by making user config 
 You can interact with this network over the central rpc interface to add more authorities and users.
 You can make use of this interface over: <b>http://127.0.0.1:8545</b>
 With this you can successfully pair authorities and users to one another through their enode adresses.
+I added a single user into the e-authority network to lay a framework for everything.
+
